@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.topdiv{
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    margin: 15px;
+    align-items: center;
+}
+
+.leftdiv {
+    display: flex;
+    gap:20px ;
+    align-items: center;
+}
+
+.rightdiv p i{
+    display: flex;
+    gap:20px ;
+    align-items: center;
+}

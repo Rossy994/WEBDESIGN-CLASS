@@ -1,0 +1,41 @@
+/*universal selector*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.divone h2{
+    color: blue;
+}
+
+#h2element1{
+    color: rgb(239, 236, 241);
+}
+
+#h2element2{
+    color: brown;
+
+}
+
+.divone{
+    margin: 20px
+}
+
+.divone h2{
+    background-color: blueviolet;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 30px;
+
+}
+
+.divone button{
+    border: none;
+    padding: 10px 30px;
+    background-color: blue;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 20px black ;
+}

@@ -1,0 +1,42 @@
+/*univsal selector*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    background-color: orangered;
+    gap: 20px;
+    align-items: center;
+    padding: 20px 10%;
+    color: white;
+    border-radius: 5px;
+}
+
+.leftnavbar{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.rightnavbar{
+    margin-left: auto;
+}
+
+.rightnavbar{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.rightnavbar button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(202, 202, 6);
+    color: white;
+    
+}

@@ -1,0 +1,82 @@
+/*universal selector*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.divone{
+    padding: 10px;
+}
+
+.divone button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+}
+
+.divtwo{
+    padding: 10px;
+}
+
+.divtwo button{
+    padding: 10px;
+    color: green;
+    border: 2px solid green;
+    border-radius: 20px 20px 20px 20px;
+    background-color: white       
+}
+
+.divthree{
+    padding: 10px;
+}
+
+.divthree button{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color:red       
+}
+
+.divfour{
+    padding: 10px;
+}
+
+.divfour button{
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    background-color: aqua      
+}
+
+.divfive{
+    padding: 10px;
+}
+
+.divfive button{
+    padding: 10px;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    background-color: rgb(173, 64, 173);
+    box-shadow: 0 7px 3px purple;
+          
+}
+
+.divsix{
+    padding: 10px;
+}
+
+.divsix button{
+    padding: 10px;
+    color: white;
+    border: 2px solid orangered;
+    border-radius: 0 0 0 0;
+    background-color: hsla(16, 95%, 58%, 0.925);
+    
+          
+}
